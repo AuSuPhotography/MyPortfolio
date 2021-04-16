@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.404);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -327,10 +327,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 13px;
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+#hero span{
+  color: #f3a200;
 }
 
 #hero .btn-scroll {
